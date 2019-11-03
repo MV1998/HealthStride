@@ -1,9 +1,253 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".healthtopics.Injuries">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="What is Injury?"></TextView>
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/injury_defination">
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="What is three types of injuries?"></TextView>
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/what_is_three_type_of_injuries">
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="What are seven sport injuries?"></TextView>
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/what_are_seven_sport_injuries">
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="what are symptoms of moderate head injury?"></TextView>
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/symptoms_of_moderate_head_injury">
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="what are symptoms of severe head injury?"></TextView>
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/symptoms_of_severe_head_injury">
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="When to see a Doctor?"></TextView>
+                        <TextView
+
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/when_to_see_a_doctor">
+                        </TextView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
