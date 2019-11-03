@@ -3,4 +3,4 @@ An Android Application for health stride which was made during industrial traini
 
 When you open app then home screen opens.
 
-![test](/homescreen.jpg)
+![test](/homescreen.jpg){ width=50% }
