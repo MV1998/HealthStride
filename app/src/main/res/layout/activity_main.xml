@@ -7,7 +7,6 @@
     android:background="#ffc77d"
     tools:context=".MainActivity">
 
-
     <RelativeLayout
         android:id="@+id/ImageRelativeBox"
         android:layout_width="match_parent"

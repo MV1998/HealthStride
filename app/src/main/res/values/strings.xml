@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HealthStride</string>
+    <string name="what_is_blood_pressure">What is Blood Pressure?</string>
+    <string name="answer_to_blood_pressure">Blood pressure is a measurement used in medicine. In the body, the arteries carry blood away from the heart. As blood travels through the arteries, it presses against the walls of the arteries. Blood pressure measures how hard the blood is pushing against the walls of the arteries. ... The first is the systolic pressure.
+</string>
 </resources>
