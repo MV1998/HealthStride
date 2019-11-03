@@ -5,4 +5,6 @@ When you open app then home screen opens.
 
 ![test](/homescreen.jpg )
 
-when you click on Blood Pressure then open this activity see in image.
+when you click on Blood Pressure then opens this activity see in image.
+![](/BloodActivity1.jpg)
+![](/BloodActivity2.jpg)
