@@ -3,4 +3,28 @@
     <string name="what_is_blood_pressure">What is Blood Pressure?</string>
     <string name="answer_to_blood_pressure">Blood pressure is a measurement used in medicine. In the body, the arteries carry blood away from the heart. As blood travels through the arteries, it presses against the walls of the arteries. Blood pressure measures how hard the blood is pushing against the walls of the arteries. ... The first is the systolic pressure.
 </string>
+    <string name="card_view_string_1">A normal diastolic blood pressure is lower than 80. But even if your diastolic number is lower than 80, you can have elevated blood pressure if the systolic reading is 120-129.
+
+80-89 is stage 1 hypertension.
+
+90 or more is stage 2 hypertension.
+
+120 or more is a hypertensive crisis. Call 911.</string>
+    <string name="symptoms_of_high_blood_pressure">
+        Severe headache,
+Fatigue or confusion,
+Vision problems,
+Chest pain,
+Difficulty breathing,
+Irregular heartbeat,
+Blood in the urine,
+Pounding in your chest, neck, or ears</string>
+    <string name="symptoms_of_low_blood_pressure">
+        Dizziness or lightheadedness,
+Fainting (syncope),
+Blurred vision,,
+Nausea,
+Fatigue,
+Lack of concentration
+    </string>
 </resources>
