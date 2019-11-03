@@ -27,4 +27,41 @@ Nausea,
 Fatigue,
 Lack of concentration
     </string>
+    <string name="injury_defination">noun. Injury is defined as harm to a person or thing. An example of an injury is breaking your leg in a soccer game. An example of an injury is hurting someone reputation.</string>
+    <string name="what_is_three_type_of_injuries">Three types of injuries: acute, overuse and chronic
+Common examples include wrist fractures, ankle sprains, shoulder strains dislocations, and muscle strains.</string>
+    <string name="what_are_seven_sport_injuries">Ankle sprain,
+Groin pull,
+Hamstring strain,
+Shin splints,
+Knee injury: ACL tear,
+Knee injury: Patellofemoral syndrome — injury resulting from the repetitive movement of your kneecap against your thigh bone.
+Tennis elbow (epicondylitis)</string>
+    <string name="symptoms_of_moderate_head_injury">
+        Symptoms of a moderate head injury include:
+
+passing out for a short time
+confusion or distraction
+vomiting
+a lasting headache
+temporary changes in behavior
+memory problems
+loss of balance
+    </string>
+    <string name="symptoms_of_severe_head_injury">Symptoms of a severe head injury include:
+
+significant bleeding
+passing out and not waking up
+having a seizure
+problems with vision, taste, or smell
+difficulty staying alert or awake
+clear fluid or blood coming out of the ears or nose
+bruises behind the ears
+weakness or numbness
+difficulty speaking</string>
+    <string name="when_to_see_a_doctor">Moderate and severe head injuries require immediate treatment. If the symptoms of a mild head injury last for more than 2 weeks, a person should also seek medical advice.
+
+The symptoms of a concussion do not always appear immediately. Sometimes, a person may develop initial symptoms days or weeks after the injury.
+
+People should always take head injuries seriously. If someone is concerned about their symptoms, even after a mild injury, they should speak to a doctor.</string>
 </resources>
