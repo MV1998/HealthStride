@@ -9,6 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".healthtopics.Injuries"
+            android:parentActivityName=".MainActivity"
+            android:label="Injuries"></activity>
+        <activity android:name=".healthtopics.FoodSafety"
+            android:parentActivityName=".MainActivity"
+            android:label="Food Safety"></activity>
+        <activity android:name=".healthtopics.Depression"
+            android:parentActivityName=".MainActivity"
+            android:label="Depression"></activity>
+        <activity android:name=".healthtopics.SleepDifficulties"
+            android:parentActivityName=".MainActivity"
+            android:label="Sleep Difficulties"></activity>
+        <activity android:name=".healthtopics.Stress"
+            android:parentActivityName=".MainActivity"
+            android:label="Stress"></activity>
+        <activity android:name=".healthtopics.BloodPressure"
+            android:parentActivityName=".MainActivity"
+            android:label="Blood Pressure"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,18 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffc77d"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/ImageRelativeBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/healthstride"
+            ></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/TopicRelativeBox"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ImageRelativeBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Topics">
+        </TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_below="@id/TopicRelativeBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            app:contentPadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:cardBackgroundColor="#ff9e22"
+            app:cardCornerRadius="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bloodpressure"
+                    android:padding="10dp"
+                    android:background="#ff8d00"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Blood Pressure"></TextView>
+
+                <TextView
+                    android:id="@+id/stress"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="#ff8d00"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Stress"></TextView>
+
+                <TextView
+                    android:id="@+id/sleepdifficulties"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="#ff8d00"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Sleep Difficulties"></TextView>
+
+                <TextView
+                    android:id="@+id/depression"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="#ff8d00"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Depression"></TextView>
+
+                <TextView
+                    android:id="@+id/foodsafety"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="#ff8d00"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Food Safety"></TextView>
+
+                <TextView
+                    android:id="@+id/injuries"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="#ff8d00"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Injuries"></TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
