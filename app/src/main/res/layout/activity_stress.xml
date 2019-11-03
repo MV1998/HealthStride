@@ -11,39 +11,220 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
 
             <RelativeLayout
-                android:id="@+id/whatisstress"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:padding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <TextView
                         android:padding="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="12sp"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textStyle="bold"
                         android:text="@string/what_is_stress"></TextView>
                     <TextView
                         android:padding="5dp"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="12sp"
-                        android:textColor="#000"
+                        android:textColor="@color/text_view_content_color"
                         android:textStyle="bold"
                         android:text="Stress is the body's reaction to any change that requires an adjustment or response. The body reacts to these changes with physical, mental, and emotional responses. Stress is a normal part of life.. Even positive life changes such as a promotion, a mortgage, or the birth of a child produce stress.
 "></TextView>
 
                 </LinearLayout>
-
+                </androidx.cardview.widget.CardView>
             </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:padding="7dp"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="@string/what_are_the_different_types_of_stress"></TextView>
+
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="According to the American Psychological Association, the three types of stress — acute stress, episodic acute stress, and chronic stress — can all make us feel out of sorts or even ill, but chronic stress is often ignored. Acute Stress."></TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:contentPadding="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/card_View_background_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:textSize="12sp"
+                android:text="@string/what_are_the_causes_and_effects_of_stress"></TextView>
+            <TextView
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_view_content_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stress hormones cause your blood vessels to constrict and divert more oxygen to your muscles so you'll have more strength to take action. But this also raises your blood pressure. As a result, frequent or chronic stress will make your heart work too hard for too long."></TextView>
+
+
         </LinearLayout>
 
+        </androidx.cardview.widget.CardView>
 
-    </ScrollView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:contentPadding="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/card_View_background_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:text="@string/what_are_the_physical_symptoms_of_stress"></TextView>
+            <TextView
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_view_content_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Low energy.
+2.Headaches.
+3.Upset stomach, including diarrhea, constipation, and nausea.
+4.Aches, pains, and tense muscles.
+5.Chest pain and rapid heartbeat.
+6.Insomnia.
+7.Frequent colds and infections.
+8.Loss of sexual desire and/or ability."></TextView>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="400dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/symptomsofstress"></ImageView>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    app:contentPadding="5dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/card_View_background_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textStyle="bold"
+                            android:textSize="12sp"
+                            android:text="@string/what_is_stress_management"></TextView>
+                        <TextView
+                            android:padding="5dp"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_view_content_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Stress Management. Stress is basically the tension or anxiety caused by any sort of pressure in everyday life. The ability to handle or minimize the physical and emotional effects of such anxiety is known as one's stress management skills."></TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+</LinearLayout></ScrollView>
 </RelativeLayout>
