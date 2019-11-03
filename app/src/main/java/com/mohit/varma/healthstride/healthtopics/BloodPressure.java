@@ -8,8 +8,6 @@ import com.mohit.varma.healthstride.R;
 
 public class BloodPressure extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
