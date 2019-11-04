@@ -36,7 +36,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="#fff"
-                            android:text="What is Food Safety?"></TextView>
+                            android:text="What is 5 Food safety rules?"></TextView>
                         <TextView
                             android:padding="5dp"
                             android:textSize="12sp"
@@ -44,9 +44,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/text_view_content_color"
-                            android:text="@string/what_is_food_safety"></TextView>
+                            android:text="@string/What_is_5_food_safety_rules"></TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/images"></ImageView>
 
             </RelativeLayout>
 
@@ -71,7 +85,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="#fff"
-                            android:text="What is Food Safety?"></TextView>
+                            android:text="What is Food Safety and why it is important?"></TextView>
                         <TextView
                             android:padding="5dp"
                             android:textSize="12sp"
@@ -79,7 +93,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@color/text_view_content_color"
-                            android:text="@string/what_is_food_safety"></TextView>
+                            android:text="@string/What_is_food_safety_why_is_important"></TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
