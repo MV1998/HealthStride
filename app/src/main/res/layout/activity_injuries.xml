@@ -25,7 +25,7 @@
                     app:cardCornerRadius="10dp"
                     app:cardBackgroundColor="@color/card_View_background_color"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent">
 
                     <LinearLayout
                         android:orientation="vertical"
