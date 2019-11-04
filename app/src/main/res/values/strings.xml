@@ -6,6 +6,8 @@
     <string name="what_is_stress">What is Stress?</string>
     <string name="answer_to_stress">Stress is the body reaction to any change that requires an adjustment or response. The body reacts to these changes with physical, mental, and emotional responses. Stress is a normal part of life. ... Even positive life changes such as a promotion, a mortgage, or the birth of a child produce stress.
 </string>
+    <string name="what_are_the_different_types_of_stress">What are the different types of stress</string>
+    <string name="answer_of_stress">According to the American Psychological Association, the three types of stress — acute stress, episodic acute stress, and chronic stress — can all make us feel out of sorts or even ill, but chronic stress is often ignored. Acute Stress.</string>
     <string name="card_view_string_1">A normal diastolic blood pressure is lower than 80. But even if your diastolic number is lower than 80, you can have elevated blood pressure if the systolic reading is 120-129.
 
 80-89 is stage 1 hypertension.
@@ -67,4 +69,21 @@ difficulty speaking</string>
 The symptoms of a concussion do not always appear immediately. Sometimes, a person may develop initial symptoms days or weeks after the injury.
 
 People should always take head injuries seriously. If someone is concerned about their symptoms, even after a mild injury, they should speak to a doctor.</string>
+
+<string name="what_are_the_different_types_of_sleep_disorder">What are the different types of sleep disorder?</string>
+<string name="answer_of_sleep_disorder">1.Obstructive Sleep Apnea (OSA) .
+Upper 2.Upper Airway Resistance Syndrome (UARS) .
+Perio3.periodic Limb Movement Disorder (PLMD) .
+Restl4.Restless leg syndrome (RLS) .
+Narco5.narcolepsy.
+REM S6.REM Sleep Behaviour Disorder.
+Insom7 Insomnia.</string>
+
+<string name="what_is_sleep_problem">What is sleep problem?</string>
+    <string name="answer_of_sleep_problem">Sleep Disorders. ... An Overview of Insomnia Insomnia is a sleep disorder that is characterized by difficulty falling and/or staying asleep. Hypersomnia (Daytime Sleepiness) Hypersomnia, or excessive sleepiness, is a condition in which a person has trouble staying awake during the day.</string>
+<string name="what_are_the_most_common_cause_of_sleep_problem">What are the most common cause of sleep problem?</string>
+    <string name="answer_of_cause_of_sleep_problem">Long-term or chronic insomnia (insomnia that occurs at least three nights a week for a month or longer) can be caused by factors such as depression, chronic stress, and pain or discomfort at night. A common cause of chronic insomnia is a conditioned emotional response.</string>
+
+
+
 </resources>
