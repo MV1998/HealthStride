@@ -39,6 +39,21 @@
         </TextView>
     </RelativeLayout>
     <RelativeLayout
+        android:layout_below="@id/TopicRelativeBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Only most common health related topic described.">
+
+        </TextView>
+    </RelativeLayout>
+    <RelativeLayout
         android:padding="20dp"
         android:layout_below="@id/TopicRelativeBox"
         android:layout_width="match_parent"

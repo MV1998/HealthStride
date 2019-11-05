@@ -70,8 +70,8 @@ The symptoms of a concussion do not always appear immediately. Sometimes, a pers
 
 People should always take head injuries seriously. If someone is concerned about their symptoms, even after a mild injury, they should speak to a doctor.</string>
 
-<string name="what_are_the_different_types_of_sleep_disorder">What are the different types of sleep disorder?</string>
-<string name="answer_of_sleep_disorder">1.Obstructive Sleep Apnea (OSA) .
+    <string name="what_are_the_different_types_of_sleep_disorder">What are the different types of sleep disorder?</string>
+    <string name="answer_of_sleep_disorder">1.Obstructive Sleep Apnea (OSA) .
 Upper 2.Upper Airway Resistance Syndrome (UARS) .
 Perio3.periodic Limb Movement Disorder (PLMD) .
 Restl4.Restless leg syndrome (RLS) .
@@ -79,11 +79,48 @@ Narco5.narcolepsy.
 REM S6.REM Sleep Behaviour Disorder.
 Insom7 Insomnia.</string>
 
-<string name="what_is_sleep_problem">What is sleep problem?</string>
+    <string name="what_is_sleep_problem">What is sleep problem?</string>
     <string name="answer_of_sleep_problem">Sleep Disorders. ... An Overview of Insomnia Insomnia is a sleep disorder that is characterized by difficulty falling and/or staying asleep. Hypersomnia (Daytime Sleepiness) Hypersomnia, or excessive sleepiness, is a condition in which a person has trouble staying awake during the day.</string>
-<string name="what_are_the_most_common_cause_of_sleep_problem">What are the most common cause of sleep problem?</string>
+    <string name="what_are_the_most_common_cause_of_sleep_problem">What are the most common cause of sleep problem?</string>
     <string name="answer_of_cause_of_sleep_problem">Long-term or chronic insomnia (insomnia that occurs at least three nights a week for a month or longer) can be caused by factors such as depression, chronic stress, and pain or discomfort at night. A common cause of chronic insomnia is a conditioned emotional response.</string>
 
+<string name="What_is_5_food_safety_rules">5 Food Safety Rules In The Kitchen
+Rule 1: Wash hands between steps. ...
+Rule 2: Sanitize work surfaces. ...
+Rule 3: Use separate cutting boards for raw meats, vegetables and produce, and cooked foods. ...
+Rule 4: Cook foods to safe temperatures. ...
+Rule 5: Keep hot foods hot and cold foods cold. ...
+Related Pages You May Enjoy.</string>
+    <string name="What_is_food_safety_why_is_important">Food safety is about producing, handling, storing and preparing food in such a way as to prevent infection and contamination in the food production chain, and to help ensure that food quality and wholesomeness are maintained to promote good health.</string>
+<string name="What_are_the_10_rules_for_safe_food_practice">Their power to change habitual practices will be all the greater.
+Choose foods processed for safety. ...
+Cook food thoroughly. ...
+Eat cooked foods immediately. ...
+Store cooked foods carefully. ...
+Reheat cooked foods thoroughly. ...
+Avoid contact between raw foods and cooked foods. ...
+Wash hands repeatedly.</string>
+    <string name="How_can_food_safety_be_improved">5 Easy Ways to Improve Food Safety in 2018
+Start a Food Rotation Program. To comply with the FDA Food Code, you need to implement a food rotation program. ...
+2. Make sure your staff is Food Handler certified.
+Add More First Aid Stations. Working in the food industry can be dangerous. ...
+Update Employee Training. ...
+Keep Food at Safe Temperatures.</string>
+    <string name="What_is_depression">Depression (major depressive disorder or clinical depression) is a common but serious mood disorder. It causes severe symptoms that affect how you feel, think, and handle daily activities, such as sleeping, eating, or working. To be diagnosed with depression, the symptoms must be present for at least two weeks.</string>
+    <string name="symptoms_of_depression">Signs and Symptoms:
+If you have been experiencing some of the following signs and symptoms most of the day, nearly every day, for at least two weeks, you may be suffering from depression:
 
-
+Persistent sad, anxious, or “empty” mood
+Feelings of hopelessness, or pessimism
+Irritability
+Feelings of guilt, worthlessness, or helplessness
+Loss of interest or pleasure in hobbies and activities
+Decreased energy or fatigue
+Moving or talking more slowly
+Feeling restless or having trouble sitting still
+Difficulty concentrating, remembering, or making decisions
+Difficulty sleeping, early-morning awakening, or oversleeping
+Appetite and/or weight changes
+Thoughts of death or suicide, or suicide attempts
+Aches or pains, headaches, cramps, or digestive problems without a clear physical cause and/or that do not ease even with treatment</string>
 </resources>
