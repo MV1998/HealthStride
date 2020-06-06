@@ -3,13 +3,15 @@ An Android Application for health stride which was made during industrial traini
 
 When you open app then home screen opens.
 
-![test](/homescreen.jpg )
+<img src="/homescreen.jpg" height="300em" />
 
 when you click on Blood Pressure then opens this activity see in image.
+
 <img src="/BloodActivity1.jpg" height="300em" /> <img src="/BloodActivity2.jpg" height="300em" />
 
 when you click on Stress then stress activity opens.
-![](/stress.jpg)
+
+<img src="/stress.jpg" height="300em" />
 
 when you click on Sleep Difficulties then this activity opens.
 ![](/sleep.jpg)
