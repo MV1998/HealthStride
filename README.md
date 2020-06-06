@@ -14,15 +14,19 @@ when you click on Stress then stress activity opens.
 <img src="/stress.jpg" height="300em" />
 
 when you click on Sleep Difficulties then this activity opens.
-![](/sleep.jpg)
+
+<img src="/sleep.jpg" height="300em" />
 
 when you click on Depression then Depression activity opens.
-![](/depression.jpg)
+
+<img src="/depression.jpg" height="300em" />
 
 when you click on Food Safety then this activity opens.
-![](/foodsafety.jpg)
+
+<img src="/foodsafety.jpg" height="300em" />
 
 when you click on Injury then this activity opens.
-![](/injury.jpg)
+
+<img src="/injury.jpg" height="300em" />
 
 Friends, Now I want to inform you that this app's has common functionality like opening activity using Intent, using of setOnclickListoner and used of material design guideline for better UI. This app falls in basic android app development category. 
