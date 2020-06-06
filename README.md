@@ -6,8 +6,7 @@ When you open app then home screen opens.
 ![test](/homescreen.jpg )
 
 when you click on Blood Pressure then opens this activity see in image.
-![](/BloodActivity1.jpg)
-![](/BloodActivity2.jpg)
+<img src="/BloodActivity1.jpg" height="300em" /> <img src="/BloodActivity2.jpg" height="300em" />
 
 when you click on Stress then stress activity opens.
 ![](/stress.jpg)
